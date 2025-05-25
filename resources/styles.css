@@ -1,0 +1,126 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #282c34;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 40px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .project {
+    margin-top: 20px;
+  }
+  
+  .project a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  /* Toggle Button */
+#darkModeToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007acc;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  #darkModeToggle:hover {
+    background-color: #005fa3;
+  }
+  
+  /* Dark Mode Styles */
+  .dark-mode body {
+    background-color: #1e1e1e;
+    color: #ddd;
+  }
+  
+  .dark-mode header {
+    background-color: #121212;
+    color: #f4f4f4;
+  }
+  
+  .dark-mode section {
+    background-color: #2a2a2a;
+  }
+  
+  .dark-mode footer {
+    background-color: #111;
+    color: #999;
+  }
+  
+  .dark-mode nav a {
+    color: #ddd;
+  }
+  
+  .dark-mode nav a:hover {
+    color: #fff;
+  }
