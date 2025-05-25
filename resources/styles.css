@@ -124,3 +124,18 @@
   .dark-mode nav a:hover {
     color: #fff;
   }
+
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .headshot {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #007acc;
+  }
